@@ -1,0 +1,21 @@
+.social{
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    rotate: 270deg;
+    gap: 1rem;
+    top: 85%;
+    margin-left: -140px;
+   
+}
+.link-logo{
+    rotate: 90deg;
+    font-size: larger;
+    text-decoration: none;
+    color:rgba(0, 0, 0, 0.635);
+    &:hover{
+        color:#0ea5e9;
+        transform: translateY(-6px);
+        transition: all 0.5s;
+    }
+}
